@@ -15,14 +15,11 @@
   src: url(./TitilliumWeb/TitilliumWeb-Bold.ttf); 
 }
 /* banderas */
-button .bandera {
-  background-color: #000;
-  /* max-width: 25px; */
-  /* max-height: 26px; */
-  background-color: #000;
+ button .bandera {
+  background-color: #000 !important;
   margin: 0px 0px 0 0px;
-  border: none;
-}
+  border: none; 
+} 
 
 .fw-medium {
   font-weight: 600 !important;
