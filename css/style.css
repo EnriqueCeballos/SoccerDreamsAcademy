@@ -14,6 +14,15 @@
   font-family: TitilliumWebBold;
   src: url(./TitilliumWeb/TitilliumWeb-Bold.ttf); 
 }
+/* banderas */
+.bandera {
+  background-color: #000;
+  /* max-width: 25px; */
+  /* max-height: 26px; */
+  background-color: #000;
+  margin: 0px 0px 0 0px;
+  border: none;
+}
 
 .fw-medium {
   font-weight: 600 !important;
