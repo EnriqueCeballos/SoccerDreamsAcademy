@@ -1,8 +1,18 @@
 /********** Template CSS **********/
 :root {
-  --primary: #cc9706;
+  --primary: #f0640d;
   --light: #f0fbfc;
   --dark: #181d38;
+}
+
+@font-face {
+  font-family: TitilliumWebItalic;
+  src: url(./TitilliumWeb/TitilliumWeb-Italic.ttf); 
+}
+
+@font-face {
+  font-family: TitilliumWebBold;
+  src: url(./TitilliumWeb/TitilliumWeb-Bold.ttf); 
 }
 
 .fw-medium {
@@ -37,7 +47,7 @@
 
 /*** Button ***/
 .btn {
-  font-family: "Nunito", sans-serif;
+  font-family: "TitilliumWebItalic", sans-serif;
   font-weight: 600;
   transition: 0.5s;
 }
