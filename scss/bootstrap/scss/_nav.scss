@@ -50,7 +50,7 @@
     &:hover,
     &:focus {
       border-color: $nav-tabs-link-hover-border-color;
-      // Prevents active .nav-link tab overlapping focus outline of previous/next .nav-link
+      // PrEvents active .nav-link tab overlapping focus outline of previous/next .nav-link
       isolation: isolate;
     }
 
@@ -76,7 +76,6 @@
   }
 }
 
-
 //
 // Pills
 //
@@ -94,7 +93,6 @@
     @include gradient-bg($nav-pills-link-active-bg);
   }
 }
-
 
 //
 // Justified variants
@@ -123,7 +121,6 @@
     width: 100%; // Make sure button will grow
   }
 }
-
 
 // Tabbable tabs
 //
