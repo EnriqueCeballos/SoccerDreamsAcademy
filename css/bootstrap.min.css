@@ -3656,11 +3656,12 @@ fieldset:disabled .btn {
 .navbar {
   position: relative;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+max-width: 100%;
 }
 .navbar > .container,
 .navbar > .container-fluid,
