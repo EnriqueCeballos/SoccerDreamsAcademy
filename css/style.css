@@ -15,7 +15,7 @@
   src: url(./TitilliumWeb/TitilliumWeb-Bold.ttf); 
 }
 /* banderas */
-.bandera {
+button, .bandera {
   background-color: #000 !important;
   margin: 0px 0px 0 0px;
   border: none; 
